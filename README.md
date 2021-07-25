@@ -1,2 +1,1 @@
-# FE_QLCH
- FrontEndOfQLCHProject
+# Hotel website
