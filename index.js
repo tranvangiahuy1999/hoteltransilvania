@@ -10,7 +10,7 @@ app.get('/login', (req, res) => {
     res.render('./login.ejs')
 })
 
-app.get('/main', (req, res) => {
+app.get('/', (req, res) => {
     res.render('./main.ejs')
 })
 
