@@ -1,2 +1,2 @@
-# FE_QLCH
- FrontEndOfQLCHProject
+# Hotel website
+### 'npm dev' to start
