@@ -10,7 +10,7 @@ app.get('/login', (req, res) => {
     res.render('./login.ejs')
 })
 
-// app.get('/', (req, res) => {
+// app.get('/main', (req, res) => {
 //     res.render('./main.ejs')
 // })
 
@@ -39,5 +39,5 @@ app.get('/renter', (req, res) => {
 })
 
 app.listen(process.env.PORT || 5000, () => {
-    console.log('Listening on port 8080')
+    console.log('Listening on port 5000')
 })
