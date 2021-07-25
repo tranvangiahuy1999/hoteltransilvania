@@ -38,6 +38,6 @@ app.get('/renter', (req, res) => {
     res.render('./renter.ejs')
 })
 
-app.listen(8080, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log('Listening on port 8080')
 })
