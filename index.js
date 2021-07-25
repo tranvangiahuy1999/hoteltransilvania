@@ -10,9 +10,9 @@ app.get('/login', (req, res) => {
     res.render('./login.ejs')
 })
 
-app.get('/', (req, res) => {
-    res.render('./main.ejs')
-})
+// app.get('/', (req, res) => {
+//     res.render('./main.ejs')
+// })
 
 app.get('/about', (req, res) => {
     res.render('./about.ejs')
@@ -26,7 +26,7 @@ app.get('/faq', (req, res) => {
     res.render('./faq.ejs')
 })
 
-app.get('/index', (req, res) => {
+app.get('/', (req, res) => {
     res.render('./index.ejs')
 })
 
