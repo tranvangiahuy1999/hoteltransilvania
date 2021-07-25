@@ -1,2 +1,2 @@
 # Hotel website
-## 'npm dev' to start
+### 'npm dev' to start
