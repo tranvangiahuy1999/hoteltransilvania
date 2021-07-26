@@ -34,7 +34,7 @@ app.get('/register', (req, res) => {
     res.render('./register.ejs')
 })
 
-app.get('/renter', (req, res) => {
+app.get('/room', (req, res) => {
     res.render('./renter.ejs')
 })
 
